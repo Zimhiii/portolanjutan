@@ -1,0 +1,131 @@
+/*Container judul dan foto*/
+.container-1 {
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 45%,
+    rgba(0, 212, 255, 1) 64%
+  ); */
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.portofolio {
+  display: grid;
+  width: 50%;
+  justify-content: center;
+}
+h1.judul {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.image1 {
+  display: grid;
+  width: 50%;
+  justify-content: center;
+}
+img {
+  width: 300px;
+  margin-right: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+}
+
+/* about me */
+.container-tentangsaya {
+  display: flex;
+  background-color: bisque;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+.tultentang {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: aqua;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* isss */
+.container-isi {
+  display: flex;
+  background-color: blue;
+  width: 100%;
+  height: 600px;
+}
+div.container-isi-biodata {
+  width: 50%;
+  background-color: blueviolet;
+}
+
+h2.tulbiodata {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 130px;
+  justify-content: center;
+  height: 50px;
+  display: flex;
+  font-size: 40px;
+  background-color: rgb(36, 99, 99);
+}
+table {
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+}
+
+div.container-isi-pengalaman-pendidikan {
+  width: 50%;
+  background-color: aquamarine;
+}
+div.pengalaman {
+  margin-top: 0px;
+  display: grid;
+  font-size: 20px;
+  text-align: center;
+  height: 50%;
+  background-color: azure;
+}
+.tulpengalaman {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-size: 40px;
+  background-color: rgb(36, 99, 99);
+}
+td {
+  font-size: 30px;
+}
+
+div.pendidikan {
+  margin-top: 0px;
+  display: grid;
+  font-size: 20px;
+  text-align: center;
+  height: 50%;
+}
+.tulpendidikan {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  background-color: rgb(36, 99, 99);
+}
