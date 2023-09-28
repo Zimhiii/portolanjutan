@@ -59,7 +59,7 @@ img {
   display: flex;
   background-color: blue;
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 div.container-isi-biodata {
   width: 50%;
@@ -74,7 +74,7 @@ h2.tulbiodata {
   justify-content: center;
   height: 50px;
   display: flex;
-  font-size: 40px;
+  font-size: 50px;
   background-color: rgb(36, 99, 99);
 }
 table {
@@ -104,7 +104,7 @@ div.pengalaman {
   width: 100%;
   height: 50px;
   display: flex;
-  font-size: 40px;
+  font-size: 50px;
   background-color: rgb(36, 99, 99);
 }
 td {
@@ -126,6 +126,39 @@ div.pendidikan {
   justify-content: center;
   width: 100%;
   height: 50px;
-  font-size: 40px;
+  font-size: 50px;
   background-color: rgb(36, 99, 99);
+}
+
+.list1 {
+  font-size: 30px;
+}
+/* kontak */
+div.container-kontak {
+  margin-top: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.tulkontak {
+  background-color: aqua;
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isikontak {
+  text-decoration: none;
+}
+.container-list {
+}
+.list2 {
+  margin-top: 10px;
+  font-size: 35px;
+  margin-bottom: 10px;
 }
