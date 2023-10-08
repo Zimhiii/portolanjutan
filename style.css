@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /*Container judul dan foto*/
 .container-1 {
   /* background: rgb(2, 0, 36);
@@ -41,7 +45,7 @@ img {
 /* about me */
 .container-tentangsaya {
   display: flex;
-  background-color: bisque;
+  /* background-color: bisque; */
   width: 100%;
   height: 150px;
   text-align: center;
@@ -49,7 +53,7 @@ img {
 .tultentang {
   margin-top: auto;
   margin-bottom: auto;
-  background-color: aqua;
+  /* background-color: aqua; */
   text-align: center;
   font-size: 30px;
 }
@@ -57,13 +61,13 @@ img {
 /* isss */
 .container-isi {
   display: flex;
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
   height: 700px;
 }
 div.container-isi-biodata {
   width: 50%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 h2.tulbiodata {
@@ -75,7 +79,7 @@ h2.tulbiodata {
   height: 50px;
   display: flex;
   font-size: 50px;
-  background-color: rgb(36, 99, 99);
+  /* background-color: rgb(36, 99, 99); */
 }
 table {
   border: 1px solid black;
@@ -85,7 +89,7 @@ table {
 
 div.container-isi-pengalaman-pendidikan {
   width: 50%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 div.pengalaman {
   margin-top: 0px;
@@ -93,7 +97,7 @@ div.pengalaman {
   font-size: 20px;
   text-align: center;
   height: 50%;
-  background-color: azure;
+  /* background-color: azure; */
 }
 .tulpengalaman {
   margin-top: 0px;
@@ -105,7 +109,7 @@ div.pengalaman {
   height: 50px;
   display: flex;
   font-size: 50px;
-  background-color: rgb(36, 99, 99);
+  /* background-color: rgb(36, 99, 99); */
 }
 td {
   font-size: 30px;
@@ -127,7 +131,7 @@ div.pendidikan {
   width: 100%;
   height: 50px;
   font-size: 50px;
-  background-color: rgb(36, 99, 99);
+  /* background-color: rgb(36, 99, 99); */
 }
 
 .list1 {
@@ -138,10 +142,11 @@ div.container-kontak {
   margin-top: 0;
   width: 100%;
   height: 300px;
+  border: 1px solid black;
 }
 
 .tulkontak {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   font-size: 50px;
   align-items: center;
